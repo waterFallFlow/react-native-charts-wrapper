@@ -19,7 +19,6 @@ import BubbleChartScreen from './BubbleChartScreen';
 import CandleStickChartScreen from './CandleStickChartScreen';
 import CombinedChartScreen from './CombinedChartScreen';
 import LineChartScreen from './LineChartScreen';
-import LineChartGradientScreen from './LineChartGradientScreen';
 import TimeSeriesLineChartScreen from './TimeSeriesLineChartScreen';
 import PieChartScreen from './PieChartScreen';
 import RadarChartScreen from './RadarChartScreen';
@@ -76,11 +75,6 @@ var ExampleRoutes = {
     name: 'LineChart',
     screen: LineChartScreen,
     description: 'Displays a LineChart',
-  },
-  LineChartGradientScreen: {
-    name: 'LineChartGradient',
-    screen: LineChartGradientScreen,
-    description: 'Displays a LineChart with Gradient',
   },
   RadarChartScreen: {
     name: 'RadarChart',
